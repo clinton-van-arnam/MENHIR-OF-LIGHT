@@ -88,9 +88,9 @@ a = a + 0.01
 function keyPressed() {
 
   // If you hit the s key, save an image
-  if (key == 's') {
+
     save("mySketch.png");
-  }
+  
 }
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
